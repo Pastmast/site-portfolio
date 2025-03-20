@@ -63,25 +63,25 @@
 						<div class="portfolio-block__card">
 							<a
 								class="portfolio-block__card-inner"
-								href="https://pastmast.github.io/films-table-JavaScript/"
+								href="https://pastmast.github.io/weather/"
 								aria-label="Переход на страницу данной работы"
 								target="_blank"
 							>
 								<img
-									class="portfolio-block__card-img"
-									src="/images/screenshot-table-films.jpeg"
+									class="portfolio-block__card-img portfolio-block__card-img--fit"
+									src="/images/screenshot-weather.jpeg"
 									alt="скриншот сайта"
 									width="300px"
 									height="200px"
 								/>
 								<div class="portfolio-block__card-info">
 									<h2 class="portfolio-block__card-name">
-										Форма и таблица с функционалом для добавления и фильтрации фильмов
+										Приложение для определения погоды в любом городе мира на HTML, CSS, JavaScript и Vue 3 (options
+										API), сборка Vite.
 									</h2>
 									<p class="portfolio-block__card-description">
-										На&nbsp;HTML, CSS и&nbsp;JavaScript реализованы функции добавления, редактирования, сортировки
-										и&nbsp;удаления фильмов в&nbsp;форме с&nbsp;таблицей. В&nbsp;форме можно заполнить информацию
-										о&nbsp;фильме.
+										Приложение, в&nbsp;котором можно определять погоду в&nbsp;любом городе. Фон приложения меняется
+										в&nbsp;зависимости от&nbsp;погодных условий в&nbsp;определённом городе.
 									</p>
 								</div>
 							</a>
@@ -110,6 +110,61 @@
 										Cайт, на&nbsp;котором можно выбрать случайный фильм, посмотреть список топовых фильмов
 										по&nbsp;IMDb-рейтингу, переходить на&nbsp;все остальные страницы с&nbsp;фильмами, регистрироваться
 										и&nbsp;авторизовываться.
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="portfolio-block__item">
+						<div class="portfolio-block__card portfolio-block__card--ultra-wide">
+							<a
+								class="portfolio-block__card-inner"
+								href="https://pastmast.github.io/films-table-JavaScript/"
+								aria-label="Переход на страницу данной работы"
+								target="_blank"
+							>
+								<img
+									class="portfolio-block__card-img"
+									src="/images/screenshot-table-films.jpeg"
+									alt="скриншот сайта"
+									width="300px"
+									height="200px"
+								/>
+								<div class="portfolio-block__card-info">
+									<h2 class="portfolio-block__card-name">
+										Форма и таблица с функционалом для добавления и фильтрации фильмов
+									</h2>
+									<p class="portfolio-block__card-description">
+										На&nbsp;HTML, CSS и&nbsp;JavaScript реализованы функции добавления, редактирования, сортировки
+										и&nbsp;удаления фильмов в&nbsp;форме с&nbsp;таблицей. В&nbsp;форме можно заполнить информацию
+										о&nbsp;фильме.
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="portfolio-block__item">
+						<div class="portfolio-block__card portfolio-block__card--ultra-wide">
+							<a
+								class="portfolio-block__card-inner"
+								href="https://pastmast.github.io/ToDo-List/"
+								aria-label="Переход на страницу данной работы"
+								target="_blank"
+							>
+								<img
+									class="portfolio-block__card-img portfolio-block__card-img--fit"
+									src="/images/screenshot-todo-list.jpeg"
+									alt="скриншот сайта"
+									width="300px"
+									height="200px"
+								/>
+								<div class="portfolio-block__card-info">
+									<h2 class="portfolio-block__card-name">
+										Приложение со списком задач на HTML, CSS, JavaScript (с помощью технологий и методов Vue 3
+										Composition API)
+									</h2>
+									<p class="portfolio-block__card-description">
+										Приложение, в котором можно добавлять задачи, удалять, перемещять по статусу.
 									</p>
 								</div>
 							</a>
@@ -181,6 +236,7 @@
 		list-style: none;
 		gap: 35px;
 		padding: 0;
+		justify-content: center;
 
 		@media (max-width: 1379px) {
 			width: 920px;
@@ -228,6 +284,27 @@
 		}
 	}
 
+	&__card--ultra-wide {
+		width: 450px;
+		min-height: 420px;
+
+		@include vp-1023 {
+			width: 280px;
+			gap: 10px;
+			min-height: 500px;
+		}
+
+		@include vp-767 {
+			width: 280px;
+			gap: 10px;
+			min-height: 400px;
+		}
+
+		@media (max-width: 1379px) {
+			width: 280px;
+		}
+	}
+
 	&__card:hover {
 		box-shadow: 0 0 25px 4px rgb(15, 65, 165);
 	}
@@ -248,6 +325,24 @@
 		@include vp-767 {
 			height: 160px;
 			margin: 0 0 10px;
+		}
+	}
+
+	&__card-img--fit {
+		width: 100%;
+		height: 200px;
+		object-fit: fill;
+
+		@include vp-1023 {
+			min-height: 110px;
+			margin: 0 0 10px;
+			object-fit: fill;
+		}
+
+		@include vp-767 {
+			height: 160px;
+			margin: 0 0 10px;
+			object-fit: fill;
 		}
 	}
 

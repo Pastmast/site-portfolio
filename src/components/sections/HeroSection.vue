@@ -10,7 +10,7 @@
 					<p class="hero-block__description">
 						Я
 						<span class="hero-block__description-main">frontend-разработчик</span>. Работаю с применением следующих
-						навыков и технологий: HTML, CSS, JavaScript, TypeScript, Vue 3, Nuxt.
+						навыков и технологий: HTML, CSS, JavaScript, TypeScript, Vue 3 (Composition API, Options API), Nuxt 3, SQL (базовый уровень).
 					</p>
 				</div>
 				<div class="hero-block__photo">
@@ -172,7 +172,7 @@
 	}
 
 	&__photo-img:hover {
-		box-shadow: 0px -1px 35px 15px rgb(15, 65, 165);
+		box-shadow: 0px -1px 40px 30px rgb(15, 65, 165);
 	}
 
 	&__photo-img:hover {
