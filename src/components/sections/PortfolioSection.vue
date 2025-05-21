@@ -116,7 +116,32 @@
 						</div>
 					</li>
 					<li class="portfolio-block__item">
-						<div class="portfolio-block__card portfolio-block__card--ultra-wide">
+						<div class="portfolio-block__card">
+							<a
+								class="portfolio-block__card-inner"
+								href="https://pastmast.github.io/music-player-project/"
+								aria-label="Переход на страницу данной работы"
+								target="_blank"
+							>
+								<img
+									class="portfolio-block__card-img portfolio-block__card-img--fit"
+									src="/images/screenshot-music-player.jpeg"
+									alt="скриншот сайта"
+									width="300px"
+									height="200px"
+								/>
+								<div class="portfolio-block__card-info">
+									<h2 class="portfolio-block__card-name">Музыкальный плеер на HTML, CSS, JavaScript</h2>
+									<p class="portfolio-block__card-description">
+										Музыкальный плеер с тремя тестовыми треками на HTML, CSS, JavaScript (адаптирован под мобильные
+										устройства). Реализовна логика перемотки треков и смены фона страницы под каждый трек.
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="portfolio-block__item">
+						<div class="portfolio-block__card">
 							<a
 								class="portfolio-block__card-inner"
 								href="https://pastmast.github.io/films-table-JavaScript/"
@@ -136,15 +161,14 @@
 									</h2>
 									<p class="portfolio-block__card-description">
 										На&nbsp;HTML, CSS и&nbsp;JavaScript реализованы функции добавления, редактирования, сортировки
-										и&nbsp;удаления фильмов в&nbsp;форме с&nbsp;таблицей. В&nbsp;форме можно заполнить информацию
-										о&nbsp;фильме.
+										и&nbsp;удаления фильмов.
 									</p>
 								</div>
 							</a>
 						</div>
 					</li>
 					<li class="portfolio-block__item">
-						<div class="portfolio-block__card portfolio-block__card--ultra-wide">
+						<div class="portfolio-block__card">
 							<a
 								class="portfolio-block__card-inner"
 								href="https://pastmast.github.io/ToDo-List/"
@@ -262,7 +286,7 @@
 
 	&__card {
 		width: 280px;
-		min-height: 530px;
+		min-height: 500px;
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
@@ -281,27 +305,6 @@
 		@include vp-767 {
 			gap: 10px;
 			min-height: 400px;
-		}
-	}
-
-	&__card--ultra-wide {
-		width: 450px;
-		min-height: 420px;
-
-		@include vp-1023 {
-			width: 280px;
-			gap: 10px;
-			min-height: 500px;
-		}
-
-		@include vp-767 {
-			width: 280px;
-			gap: 10px;
-			min-height: 400px;
-		}
-
-		@media (max-width: 1379px) {
-			width: 280px;
 		}
 	}
 
