@@ -119,6 +119,32 @@
 						<div class="portfolio-block__card">
 							<a
 								class="portfolio-block__card-inner"
+								href="https://pastmast.github.io/meals-search/"
+								aria-label="Переход на страницу данной работы"
+								target="_blank"
+							>
+								<img
+									class="portfolio-block__card-img"
+									src="/images/screenshot-meals.jpeg"
+									alt="скриншот сайта"
+									width="300px"
+									height="200px"
+								/>
+								<div class="portfolio-block__card-info">
+									<h2 class="portfolio-block__card-name">Многостраничный сайт с рецептами блюд для ресторана.</h2>
+									<p class="portfolio-block__card-description">
+										Многостраничный проект с рецептами блюд для ресторана на английском языке с пордключенным API блюд
+										на сборке Vite и с применением Vue 3 (composition API), Tailwind CSS, JavaScript, Vue-Router, Vuex,
+										Axios.
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="portfolio-block__item">
+						<div class="portfolio-block__card">
+							<a
+								class="portfolio-block__card-inner"
 								href="https://pastmast.github.io/music-player-project/"
 								aria-label="Переход на страницу данной работы"
 								target="_blank"
@@ -135,33 +161,6 @@
 									<p class="portfolio-block__card-description">
 										Музыкальный плеер с тремя тестовыми треками на HTML, CSS, JavaScript (адаптирован под мобильные
 										устройства). Реализовна логика перемотки треков и смены фона страницы под каждый трек.
-									</p>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li class="portfolio-block__item">
-						<div class="portfolio-block__card">
-							<a
-								class="portfolio-block__card-inner"
-								href="https://pastmast.github.io/films-table-JavaScript/"
-								aria-label="Переход на страницу данной работы"
-								target="_blank"
-							>
-								<img
-									class="portfolio-block__card-img"
-									src="/images/screenshot-table-films.jpeg"
-									alt="скриншот сайта"
-									width="300px"
-									height="200px"
-								/>
-								<div class="portfolio-block__card-info">
-									<h2 class="portfolio-block__card-name">
-										Форма и таблица с функционалом для добавления и фильтрации фильмов
-									</h2>
-									<p class="portfolio-block__card-description">
-										На&nbsp;HTML, CSS и&nbsp;JavaScript реализованы функции добавления, редактирования, сортировки
-										и&nbsp;удаления фильмов.
 									</p>
 								</div>
 							</a>
