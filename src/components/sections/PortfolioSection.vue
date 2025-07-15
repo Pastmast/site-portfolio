@@ -10,6 +10,33 @@
 						<div class="portfolio-block__card">
 							<a
 								class="portfolio-block__card-inner"
+								href="https://pastmast.github.io/site-ai-project/"
+								aria-label="Переход на страницу данной работы"
+								target="_blank"
+							>
+								<img
+									class="portfolio-block__card-img"
+									src="/images/screenshot-site-gpt.jpeg"
+									alt="скриншот сайта"
+									width="300px"
+									height="200px"
+								/>
+								<div class="portfolio-block__card-info">
+									<h2 class="portfolio-block__card-name">
+										Многостраничный сайт про нейросети (AI) и их главные особенности
+									</h2>
+									<p class="portfolio-block__card-description">
+										Многостраничный сайт про нейросети (AI) c адаптивной и кроссбраузерной вёрсткой на сборке vite с
+										применением фреймворка Vue 3 (Composition API), Vue-Router, JavaScript, SCSS.
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="portfolio-block__item">
+						<div class="portfolio-block__card">
+							<a
+								class="portfolio-block__card-inner"
 								href="https://pastmast.github.io/web-layout-sminex/"
 								aria-label="Переход на страницу данной работы"
 								target="_blank"
@@ -77,7 +104,7 @@
 								<div class="portfolio-block__card-info">
 									<h2 class="portfolio-block__card-name">
 										Приложение для определения погоды в любом городе мира на HTML, CSS, JavaScript и Vue 3 (options
-										API), сборка Vite.
+										API), сборка Vite
 									</h2>
 									<p class="portfolio-block__card-description">
 										Приложение, в&nbsp;котором можно определять погоду в&nbsp;любом городе. Фон приложения меняется
@@ -131,7 +158,7 @@
 									height="200px"
 								/>
 								<div class="portfolio-block__card-info">
-									<h2 class="portfolio-block__card-name">Многостраничный сайт с рецептами блюд для ресторана.</h2>
+									<h2 class="portfolio-block__card-name">Многостраничный сайт с рецептами блюд для ресторана</h2>
 									<p class="portfolio-block__card-description">
 										Многостраничный проект с рецептами блюд для ресторана на английском языке с пордключенным API блюд
 										на сборке Vite и с применением Vue 3 (composition API), Tailwind CSS, JavaScript, Vue-Router, Vuex,
